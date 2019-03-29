@@ -5,4 +5,4 @@ layout: home
 
 I live in Vancouver, CA with my wife and enjoy travelling, food and [photography](https://www.flickr.com/photos/adeydas).
 
-This website is a collection of stuff that interests me, things I have worked on and everything else that's worth putting on the WWW. Enjoy!
+This [website](about.html) is a collection of stuff that interests me, things I have worked on and everything else that's worth putting on the WWW. Enjoy!
