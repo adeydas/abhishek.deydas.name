@@ -1,4 +1,4 @@
-Code for [abhis.ws](https://abhishek.deydas.name)
+Code for [abhishek.deydas.name](https://abhishek.deydas.name)
 
 To find where gem theme files are `bundle show minima`
 
