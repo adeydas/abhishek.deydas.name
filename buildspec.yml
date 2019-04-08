@@ -12,3 +12,7 @@ phases:
 artifacts:
   files:
     - '_site/**/*'
+  secondary-artifacts:
+  artifact1:
+    files:
+      - '_site/**/*'
