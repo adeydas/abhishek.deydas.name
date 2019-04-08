@@ -10,6 +10,5 @@ phases:
     commands:
       - jekyll build
 artifacts:
-  name: deployable-site
-  discard-paths: yes
-  base-directory: _site
+  files:
+    - _site/*
