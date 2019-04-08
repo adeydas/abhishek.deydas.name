@@ -11,4 +11,4 @@ phases:
       - jekyll build
 artifacts:
   files:
-    - _site/*
+    - '_site/**/*'
