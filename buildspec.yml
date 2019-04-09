@@ -9,10 +9,4 @@ phases:
   build:
     commands:
       - jekyll build
-artifacts:
-  files:
-    - '_site/**/*'
-  secondary-artifacts:
-  artifact1:
-    files:
-      - '_site/**/*'
+      - aws s3 sync _site/ s3://abhishek.deydas.name
