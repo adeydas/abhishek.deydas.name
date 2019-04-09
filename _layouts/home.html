@@ -10,12 +10,22 @@ layout: default
   {{ content }}
 
   <p>&nbsp;</p>
-  <h2>My experiments with technology</h2>
   {%- if site.categories.tech.size > 0 -%}
+  <h2>My experiments with technology</h2>
 	{%- for post in site.categories.tech -%}
 		{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 		<p>{{ post.date | date: date_format }} <a href="{{ post.url | relative_url }}">{{ post.title | escape}}</a></p>
 	{%- endfor -%}
+{%- endif -%}
+
+<p>&nbsp;</p>
+
+ {%- if site.categories.rants.size > 0 -%}
+  <h2>Rants and ravings</h2>
+  {%- for post in site.categories.rants -%}
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <p>{{ post.date | date: date_format }} <a href="{{ post.url | relative_url }}">{{ post.title | escape}}</a></p>
+  {%- endfor -%}
 {%- endif -%}
 
 </div>
