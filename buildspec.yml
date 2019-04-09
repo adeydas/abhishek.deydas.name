@@ -10,3 +10,4 @@ phases:
     commands:
       - jekyll build
       - aws s3 sync _site/ s3://abhishek.deydas.name
+      - aws cloudfront create-invalidation --distribution-id E1PRO30G7BA7NW --paths *
